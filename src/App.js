@@ -14,6 +14,7 @@ function App() {
       <SocialLinks/>
       <About/>
       <Projects/>
+      <Experience/>
     </div>
   );
 }
