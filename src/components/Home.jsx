@@ -11,11 +11,7 @@ const Home = () => {
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl md:text-6xl font-bold text-white">I'm a Full Stack Developer</h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am a student at Atal Bihari Vajpayee-Indian Institute of
-            Information Technology and Management (ABV-IIITM), proficient in
-            React, Tailwind, MongoDB, Firebase, JavaScript, DSA, and Figma. I
-            specialize in creating dynamic web interfaces, optimizing code
-            efficiency, and designing user-friendly experiences.
+          That's impressive, Roshan Jaiswal! I am a student at Atal Bihari Vajpayee-Indian Institute of Information Technology and Management (ABV-IIITM), pursuing Btech in Computer Science and Engineering, and proficient in React, Tailwind, MongoDB, Firebase, JavaScript, DSA, and Figma. I specialize in creating dynamic web interfaces, optimizing code efficiency, and designing user-friendly experiences.
           </p>
           <div>
             <button className="group text-white w-fit cursor-pointer px-6 py-3 my-2 flex items-center bg-gradient-to-r from-violet-700 to-purple-500 rounded-md">
