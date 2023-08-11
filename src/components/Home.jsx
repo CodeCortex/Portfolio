@@ -19,7 +19,7 @@ const Home = () => {
           </p>
           <div>
             <button className="group text-white w-fit cursor-pointer px-6 py-3 my-2 flex items-center bg-gradient-to-r from-violet-700 to-purple-500 rounded-md">
-              Portfolio
+              Projects
               <span className="group-hover:rotate-90 duration-200">
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
