@@ -137,7 +137,7 @@ const Experience = () => {
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center text-white">
         <div className="pb-8">
           <p className="text-4xl font-bold border-b-2 md:pt-0 pt-10">Experience</p>
-          <p className="pt-6 text-center text-bold">
+          <p className="py-6 text-center text-bold">
             These are the technologies I've worked with
           </p>
         </div>

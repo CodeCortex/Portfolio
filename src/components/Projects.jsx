@@ -3,6 +3,8 @@ import elixir from "../assets/projects/Elixir.png";
 import tingdog from "../assets/projects/Tingdog.png";
 import filmexpress from "../assets/projects/FilmExpress.png";
 import portfolio from "../assets/projects/Portfolio.png"
+import drumkit from "../assets/projects/Drumkit.png"
+import recordkeeping from "../assets/projects/RecordKeeping.png"
 const Projects = () => {
   const handleDemoClick= (demoUrl)=>{
     window.open(demoUrl,"_blank");
@@ -36,6 +38,18 @@ const Projects = () => {
       demo:"https://tingdog-ten.vercel.app/",
       code:"https://github.com/CodeCortex/Tingdog"
     },
+    {
+      id: 5,
+      src: drumkit,
+      demo:"https://drum-kit-nu-seven.vercel.app/",
+      code:"https://github.com/CodeCortex/Drum-Kit"
+    },
+    {
+      id: 6,
+      src: recordkeeping,
+      demo:"https://record-keeping-phi.vercel.app/",
+      code:"https://github.com/CodeCortex/Record-Keeping"
+    }
   ];
   return (
     <div
@@ -45,7 +59,7 @@ const Projects = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold border-b-2">Projects</p>
-          <p className="pt-6 text-center text-bold">
+          <p className="py-6 text-center text-bold">
             Check out some of my works right here{" "}
           </p>
         </div>
