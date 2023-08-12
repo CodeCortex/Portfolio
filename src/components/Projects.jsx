@@ -29,7 +29,7 @@ const Projects = () => {
     {
       id: 3,
       src: portfolio,
-      demo:"",
+      demo:"home",
       code:"https://github.com/CodeCortex/Portfolio"
     },
     {
