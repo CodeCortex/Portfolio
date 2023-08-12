@@ -65,12 +65,12 @@ const Projects = () => {
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 md:px-0">
           {projects.map(({ id, src,demo,code }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+            <div key={id} className="shadow-md shadow-gray-600 rounded-lg hover:border-b-4 hover:border-violet-500">
               <img
                 src={src}
                 alt=""
                 onClick={()=>handleDemoClick(demo)}
-                className="rounded-t-md hover:scale-105 duration-200"
+                className="rounded-t-md"
               />
               <div className="flex items-center justify-center">
                 <button onClick={()=>handleDemoClick(demo)} className="w-1/2 px-6 py-3 duration-200 hover:scale-105 hover:text-green-500">
