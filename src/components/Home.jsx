@@ -7,11 +7,11 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="md:h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl md:text-5xl font-bold text-white md:pt-0 pt-96">
+          <h2 className="text-4xl md:text-5xl font-bold text-white md:pt-0 pt-20">
             <span className="text-3xl">I'm</span>
             <span>
               <TypeWriterEffect
@@ -57,7 +57,7 @@ const Home = () => {
           <img
             src={heroImage}
             alt="my profile"
-            className="mx-auto w-7/12 md:w-8/12 pb-40 md:pb-0"
+            className="mx-auto w-7/12 md:w-8/12 py-6 md:pb-0"
           />
         </div>
       </div>
