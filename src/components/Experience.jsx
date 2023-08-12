@@ -146,7 +146,7 @@ const Experience = () => {
             <div
               key={id}
               className={
-                "shadow-md py-2 rounded-lg hover:border-4 hover:border-violet-500" +
+                "shadow-md py-2 rounded-lg hover:border-4 duration-300 hover:border-violet-500" +
                 " " +
                 style
               }
