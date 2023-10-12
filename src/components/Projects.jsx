@@ -22,8 +22,8 @@ const Projects = () => {
     {
       id: 2,
       src: filmexpress,
-      demo:"https://filmy-eight.vercel.app/",
-      code:"https://github.com/CodeCortex/Filmy"
+      demo:"https://film-express.vercel.app/",
+      code:"https://github.com/CodeCortex/FilmExpress"
 
     },
     {
