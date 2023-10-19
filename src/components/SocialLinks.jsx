@@ -14,7 +14,7 @@ const SocialLinks = () => {
           <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/roshan-jaiswal-02302022b/",
+      href: "https://www.linkedin.com/in/roshan-jaiswal-codecortex/",
       style: "rounded-tr-md",
     },
     {
