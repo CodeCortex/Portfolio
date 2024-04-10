@@ -1,10 +1,10 @@
 import React from "react";
-import elixir from "../assets/projects/Elixir.png";
 import tingdog from "../assets/projects/Tingdog.png";
 import filmexpress from "../assets/projects/FilmExpress.png";
-import portfolio from "../assets/projects/Portfolio.png"
 import drumkit from "../assets/projects/Drumkit.png"
 import recordkeeping from "../assets/projects/RecordKeeping.png"
+import findCa from "../assets/projects/findCa.png"
+import chatApp from "../assets/projects/chatApp.png"
 const Projects = () => {
   const handleDemoClick= (demoUrl)=>{
     window.open(demoUrl,"_blank");
@@ -15,9 +15,9 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      src: elixir,
-      demo:'',
-      code:"https://github.com/ManavJethva/Summer-Mini-Project"
+      src: chatApp,
+      demo:'https://chatapp-kzi3.onrender.com/',
+      code:"https://github.com/CodeCortex/chatApp"
     },
     {
       id: 2,
@@ -28,9 +28,9 @@ const Projects = () => {
     },
     {
       id: 3,
-      src: portfolio,
-      demo:"https://portfolio-ruddy-eta-65.vercel.app/",
-      code:"https://github.com/CodeCortex/Portfolio"
+      src: findCa,
+      demo:"https://find-c-as.vercel.app/",
+      code:"https://github.com/CodeCortex/findCAs"
     },
     {
       id: 4,
